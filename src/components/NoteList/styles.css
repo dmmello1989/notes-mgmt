@@ -1,0 +1,14 @@
+.note-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  flex-grow: 3;
+  list-style-type: none;
+  padding: 24px 24px;
+}
+
+.note-list__item {
+  display: inline;
+  max-width: 240px;
+  max-height: 240px;
+  margin: 12px;
+}

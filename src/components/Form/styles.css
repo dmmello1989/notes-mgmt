@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 12px 40px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.form__input {
+  padding: 4px;
+  margin-top: 8px;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  border: none;
+  background-color: var(--details);
+}
+
+.form__submit {
+  width: 30%;
+  color: #ffffff;
+  align-self: flex-end;
+  background-color: var(--secundary);
+}
+
+.form__submit--active {
+  background-color: var(--secundary-active);
+}
